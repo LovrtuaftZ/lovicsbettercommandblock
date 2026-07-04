@@ -1,0 +1,32 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.zhuhongming.bettercommandblock.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "client-lovicsbettercommandblock.refmap.json",
+  "client": [
+    "AbstractCommandBlockEditScreenMixin",
+    "CommandSuggestionsAccessor",
+    "CommandSuggestionsDataAccessor",
+    "CommandSuggestionsInputAccessor",
+    "CommandSuggestionsListAccessor",
+    "CommandSuggestionsListApplyMixin",
+    "CommandSuggestionsListStateAccessor",
+    "CommandSuggestionsParseAccessor",
+    "CommandBlockEditScreenAccessor",
+    "CommandBlockEditScreenMixin",
+    "CommandBlockItemEditScreenMixin",
+    "CommandBlockMinecartItemEditScreenMixin",
+    "ClientPacketListenerMixin",
+    "CommandSuggestionsStateAccessor",
+    "CommandSuggestionsMixin",
+    "ItemStackMixin",
+    "MinecraftPickBlockMixin",
+    "MinecraftAccessor",
+    "MouseHandlerMixin",
+    "MouseHandlerAccessor",
+    "MultilineTextFieldAccessor",
+    "MultilineTextFieldStringViewAccessor",
+    "ScreenAccessor"
+  ]
+}

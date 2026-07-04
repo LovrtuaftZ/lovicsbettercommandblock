@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.zhuhongming.bettercommandblock.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "lovicsbettercommandblock.refmap.json",
+  "mixins": [
+    "BlockEntityMixin",
+    "BlockItemMixin",
+    "CommandBlockEntityMixin"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "${mod_id}",
+  "version": "${version}",
+  "name": "${mod_name}",
+  "description": "Enhances the command block GUI with a multiline editor, syntax highlighting, presets (.pvic), custom names, in-hand editing, and Alt+C block coordinate copy.",
+  "authors": [
+    "ZhuHongMing"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/project/lovics-better-command-block",
+    "sources": "https://modrinth.com/project/lovics-better-command-block/source",
+    "issues": "https://modrinth.com/project/lovics-better-command-block/issues",
+    "bilibili": "https://space.bilibili.com/3546916122004306"
+  },
+  "license": "MIT",
+  "icon": "assets/${mod_id}/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.zhuhongming.bettercommandblock.BetterCommandBlockMod"],
+    "client": ["com.zhuhongming.bettercommandblock.BetterCommandBlockClient"]
+  },
+  "mixins": [
+    "${mod_id}.mixins.json",
+    "${mod_id}.client.mixins.json"
+  ],
+  "accessWidener": "${mod_id}.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  },
+  "breaks": {
+    "bettercommandblock": "*"
+  }
+}

@@ -1,0 +1,69 @@
+/*
+ * Decompiled with CFR 0.2.2 (FabricMC 7c48b8c4).
+ */
+package net.minecraft.network.protocol.game;
+
+import java.util.function.Function;
+import net.minecraft.core.BlockPos;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.nbt.CompoundTag;
+import net.minecraft.network.FriendlyByteBuf;
+import net.minecraft.network.protocol.Packet;
+import net.minecraft.network.protocol.game.ClientGamePacketListener;
+import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.block.entity.BlockEntityType;
+import org.jetbrains.annotations.Nullable;
+
+public class ClientboundBlockEntityDataPacket
+implements Packet<ClientGamePacketListener> {
+    private final BlockPos pos;
+    private final BlockEntityType<?> type;
+    @Nullable
+    private final CompoundTag tag;
+
+    public static ClientboundBlockEntityDataPacket create(BlockEntity blockEntity, Function<BlockEntity, CompoundTag> function) {
+        return new ClientboundBlockEntityDataPacket(blockEntity.getBlockPos(), blockEntity.getType(), function.apply(blockEntity));
+    }
+
+    public static ClientboundBlockEntityDataPacket create(BlockEntity blockEntity) {
+        return ClientboundBlockEntityDataPacket.create(blockEntity, BlockEntity::getUpdateTag);
+    }
+
+    private ClientboundBlockEntityDataPacket(BlockPos blockPos, BlockEntityType<?> blockEntityType, CompoundTag compoundTag) {
+        this.pos = blockPos;
+        this.type = blockEntityType;
+        this.tag = compoundTag.isEmpty() ? null : compoundTag;
+    }
+
+    public ClientboundBlockEntityDataPacket(FriendlyByteBuf friendlyByteBuf) {
+        this.pos = friendlyByteBuf.readBlockPos();
+        this.type = friendlyByteBuf.readById(BuiltInRegistries.BLOCK_ENTITY_TYPE);
+        this.tag = friendlyByteBuf.readNbt();
+    }
+
+    @Override
+    public void write(FriendlyByteBuf friendlyByteBuf) {
+        friendlyByteBuf.writeBlockPos(this.pos);
+        friendlyByteBuf.writeId(BuiltInRegistries.BLOCK_ENTITY_TYPE, this.type);
+        friendlyByteBuf.writeNbt(this.tag);
+    }
+
+    @Override
+    public void handle(ClientGamePacketListener clientGamePacketListener) {
+        clientGamePacketListener.handleBlockEntityData(this);
+    }
+
+    public BlockPos getPos() {
+        return this.pos;
+    }
+
+    public BlockEntityType<?> getType() {
+        return this.type;
+    }
+
+    @Nullable
+    public CompoundTag getTag() {
+        return this.tag;
+    }
+}
+

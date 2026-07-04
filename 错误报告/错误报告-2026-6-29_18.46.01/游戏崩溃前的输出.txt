@@ -1,0 +1,443 @@
+[18:45:26] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.18.4
+[18:45:26] [main/INFO]: Loading 95 mods:
+	- additionalstructures 4.2.2
+	- architectury 9.2.14
+	- atistructures 1.4.0
+	- audioimprovements 1.3.1
+	- axiom 5.2.1
+	   |-- com_moulberry_axiomclientapi 1.0.41
+	   |-- com_moulberry_mixinconstraints 1.0.9
+	   \-- lattice 1.3.0
+	- bettercommandblock 1.1.0
+	- carpet 1.4.112+v230608
+	- cloth-config 11.1.136
+	   \-- cloth-basic-math 0.6.1
+	- continuity 3.0.0+1.20.1
+	- fabric-api 0.92.7+1.20.1
+	   |-- fabric-api-base 0.4.32+1802ada577
+	   |-- fabric-api-lookup-api-v1 1.6.37+1802ada577
+	   |-- fabric-biome-api-v1 13.0.15+93aa238b77
+	   |-- fabric-block-api-v1 1.0.12+1802ada577
+	   |-- fabric-block-view-api-v2 1.0.3+924f046a77
+	   |-- fabric-blockrenderlayer-v1 1.1.42+1802ada577
+	   |-- fabric-client-tags-api-v1 1.1.3+1802ada577
+	   |-- fabric-command-api-v1 1.2.35+f71b366f77
+	   |-- fabric-command-api-v2 2.2.14+1802ada577
+	   |-- fabric-commands-v0 0.2.52+df3654b377
+	   |-- fabric-containers-v0 0.1.67+df3654b377
+	   |-- fabric-content-registries-v0 4.0.13+1802ada577
+	   |-- fabric-convention-tags-v1 1.5.6+1802ada577
+	   |-- fabric-crash-report-info-v1 0.2.20+1802ada577
+	   |-- fabric-data-attachment-api-v1 1.0.2+de0fd6d177
+	   |-- fabric-data-generation-api-v1 12.3.7+1802ada577
+	   |-- fabric-dimensions-v1 2.1.55+1802ada577
+	   |-- fabric-entity-events-v1 1.6.1+1c78457f77
+	   |-- fabric-events-interaction-v0 0.6.5+13a40c6677
+	   |-- fabric-events-lifecycle-v0 0.2.64+df3654b377
+	   |-- fabric-game-rule-api-v1 1.0.41+1802ada577
+	   |-- fabric-item-api-v1 2.1.29+1802ada577
+	   |-- fabric-item-group-api-v1 4.0.14+1802ada577
+	   |-- fabric-key-binding-api-v1 1.0.38+1802ada577
+	   |-- fabric-keybindings-v0 0.2.36+df3654b377
+	   |-- fabric-lifecycle-events-v1 2.2.23+1802ada577
+	   |-- fabric-loot-api-v2 1.2.3+1802ada577
+	   |-- fabric-loot-tables-v1 1.1.47+9e7660c677
+	   |-- fabric-message-api-v1 5.1.10+1802ada577
+	   |-- fabric-mining-level-api-v1 2.1.52+1802ada577
+	   |-- fabric-model-loading-api-v1 1.0.4+1802ada577
+	   |-- fabric-models-v0 0.4.3+9386d8a777
+	   |-- fabric-networking-api-v1 1.3.14+a158aa0477
+	   |-- fabric-networking-v0 0.3.54+df3654b377
+	   |-- fabric-object-builder-api-v1 11.1.5+e35120df77
+	   |-- fabric-particles-v1 1.1.3+1802ada577
+	   |-- fabric-recipe-api-v1 1.0.24+1802ada577
+	   |-- fabric-registry-sync-v0 2.3.6+1802ada577
+	   |-- fabric-renderer-api-v1 3.2.2+1802ada577
+	   |-- fabric-renderer-indigo 1.5.3+85287f9f77
+	   |-- fabric-renderer-registries-v1 3.2.47+df3654b377
+	   |-- fabric-rendering-data-attachment-v1 0.3.39+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.29+1802ada577
+	   |-- fabric-rendering-v0 1.1.50+df3654b377
+	   |-- fabric-rendering-v1 3.0.9+1802ada577
+	   |-- fabric-resource-conditions-api-v1 2.3.9+1802ada577
+	   |-- fabric-resource-loader-v0 0.11.12+fb82e9d777
+	   |-- fabric-screen-api-v1 2.0.9+1802ada577
+	   |-- fabric-screen-handler-api-v1 1.3.33+1802ada577
+	   |-- fabric-sound-api-v1 1.0.14+1802ada577
+	   |-- fabric-transfer-api-v1 3.3.6+8dd72ea377
+	   \-- fabric-transitive-access-wideners-v1 4.3.2+1802ada577
+	- fabricloader 0.18.4
+	   \-- mixinextras 0.5.0
+	- indium 1.0.36+mc1.20.1
+	- iris 1.7.6+mc1.20.1
+	   |-- io_github_douira_glsl-transformer 2.0.1
+	   |-- org_anarres_jcpp 1.4.14
+	   \-- org_antlr_antlr4-runtime 4.13.1
+	- java 21
+	- lanserverproperties 1.11.1
+	- litematica 0.15.4
+	- lovicsbettercommandblock 1.1.1
+	- malilib 0.16.3
+	- minecraft 1.20.1
+	- modmenu 7.2.2
+	- replaymod 1.20.1-2.6.23
+	- roughlyenoughitems 12.1.785
+	   \-- error_notifier 1.0.9
+	- sodium 0.5.13+mc1.20.1
+	- terralith 2.5.4
+	- threatengl 2.0.4-release.10
+	- yet_another_config_lib_v3 3.6.6+1.20.1-fabric
+	   |-- com_twelvemonkeys_common_common-image 3.12.0
+	   |-- com_twelvemonkeys_common_common-io 3.12.0
+	   |-- com_twelvemonkeys_common_common-lang 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
+	   |-- org_quiltmc_parsers_gson 0.2.1
+	   \-- org_quiltmc_parsers_json 0.2.1
+[18:45:27] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/D:/Minecraft/PCL2/PCL2.10.0/.minecraft/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[18:45:31] [main/INFO]: Compatibility level set to JAVA_16
+[18:45:31] [main/INFO]: Compatibility level set to JAVA_17
+[18:45:31] [main/INFO]: Loading Mixin Plugin for Axiom/5.2.1
+[18:45:31] [main/WARN]: Reference map 'mixins.nonmmlauncher.replaymod.refmap.json' for mixins.nonmmlauncher.replaymod.json could not be read. If this is a development environment you can ignore this message
+[18:45:31] [main/INFO]: Loaded configuration file for Sodium: 42 options available, 3 override(s) found
+[18:45:32] [main/WARN]: Error loading class: net/caffeinemc/mods/sodium/client/render/chunk/DefaultChunkRenderer (java.lang.ClassNotFoundException: net/caffeinemc/mods/sodium/client/render/chunk/DefaultChunkRenderer)
+[18:45:32] [main/WARN]: Force-disabling mixin 'features.render.entity.CuboidMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[18:45:32] [main/WARN]: Force-disabling mixin 'features.render.entity.ModelPartMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[18:45:32] [main/WARN]: Force-disabling mixin 'features.render.entity.cull.EntityRendererMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[18:45:32] [main/WARN]: Force-disabling mixin 'features.render.entity.shadows.EntityRenderDispatcherMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[18:45:32] [main/WARN]: Force-disabling mixin 'features.render.gui.font.GlyphRendererMixin' as rule 'mixin.features.render.gui.font' (added by mods [iris]) disables it and children
+[18:45:32] [main/WARN]: Force-disabling mixin 'features.render.world.sky.BackgroundRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[18:45:32] [main/WARN]: Force-disabling mixin 'features.render.world.sky.ClientWorldMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[18:45:32] [main/WARN]: Force-disabling mixin 'features.render.world.sky.WorldRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[18:45:33] [main/WARN]: Error loading class: net/optifine/render/ChunkVisibility (java.lang.ClassNotFoundException: net/optifine/render/ChunkVisibility)
+[18:45:33] [main/WARN]: Error loading class: shadersmod/client/ShadersRender (java.lang.ClassNotFoundException: shadersmod/client/ShadersRender)
+[18:45:33] [main/WARN]: Error loading class: net/optifine/shaders/ShadersRender (java.lang.ClassNotFoundException: net/optifine/shaders/ShadersRender)
+[18:45:34] [main/INFO]: Searching for graphics cards...
+[LWJGL] [ThreadLocalUtil] Unsupported JNI version detected, this may result in a crash. Please inform LWJGL developers.
+[18:45:34] [main/INFO]: Found graphics adapter: AdapterInfo{vendor=INTEL, description='Intel(R) Graphics', adapterType=0x00002323, openglIcdFilePath='C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_459684fdb853a51e\igxelpgicd64.dll', openglIcdVersion=32.0.101.8243}
+[18:45:34] [main/INFO]: Found graphics adapter: AdapterInfo{vendor=NVIDIA, description='NVIDIA GeForce RTX 5060 Laptop GPU', adapterType=0x0000231B, openglIcdFilePath='C:\Windows\System32\DriverStore\FileRepository\nvlt.inf_amd64_138f16e1d7ecfcb8\nvoglv64.dll', openglIcdVersion=32.0.15.9201}
+[18:45:34] [main/WARN]: Sodium has applied one or more workarounds to prevent crashes or other issues on your system: [NVIDIA_THREADED_OPTIMIZATIONS_BROKEN]
+[18:45:34] [main/WARN]: This is not necessarily an issue, but it may result in certain features or optimizations being disabled. You can sometimes fix these issues by upgrading your graphics driver.
+[18:45:34] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[18:45:43] [Datafixer Bootstrap/INFO]: 188 Datafixer optimizations took 367 milliseconds
+[18:45:44] [main/WARN]: Method overwrite conflict for getConnection in fabric-networking-api-v1.mixins.json:accessor.ServerPlayNetworkHandlerAccessor from mod fabric-networking-api-v1, previously written by carpet.mixins.ServerGamePacketListenerImpl_coreMixin. Skipping method.
+[18:45:45] [main/WARN]: Method overwrite conflict for getClimateSettings in architectury.mixins.json:BiomeAccessor from mod architectury, previously written by carpet.mixins.Biome_scarpetMixin. Skipping method.
+[18:45:45] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:45:47] [Render thread/INFO]: Setting user: ZHMLovic
+[18:45:47] [Render thread/INFO]: Initializing Axiom/5.2.1
+[18:45:48] [Render thread/INFO]: bettercommandblock (Fabric) loaded
+[18:45:48] [Render thread/INFO]: bettercommandblock (Fabric) loaded
+[18:45:48] [Render thread/INFO]: [REI] Config loaded
+[18:45:48] [Render thread/INFO]: Registering S2C receiver with id roughlyenoughitems:request_tags_s2c
+[18:45:48] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[18:45:48] [Render thread/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
+[18:45:48] [Render thread/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[18:45:48] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientPlugin [roughlyenoughitems] for REIPlugin
+[18:45:49] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIPlugin
+[18:45:49] [Render thread/INFO]: [REI] Registered plugin provider HideIngredientsFromTagsPlugin [roughlyenoughitems] for REIPlugin
+[18:45:49] [Render thread/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
+[18:45:49] [Render thread/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[18:45:49] [Render thread/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
+[18:45:49] [Render thread/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
+[18:45:49] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[18:45:49] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
+[18:45:49] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[18:45:49] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[18:45:49] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items
+[18:45:49] [Render thread/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
+[18:45:49] [Render thread/INFO]: Registering S2C receiver with id architectury:spawn_entity_packet
+[18:45:49] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[18:45:49] [Worker-Main-1/INFO]: Checking mod updates...
+[18:45:49] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientPlugin [roughlyenoughitems] for REIClientPlugin
+[18:45:49] [Render thread/INFO]: [REI] Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIClientPlugin
+[18:45:49] [Render thread/INFO]: [REI] Registered plugin provider HideIngredientsFromTagsPlugin [roughlyenoughitems] for REIClientPlugin
+[18:45:49] [Render thread/INFO]: Registering S2C receiver with id roughlyenoughitems:ci_msg
+[18:45:49] [Render thread/INFO]: Registering S2C receiver with id roughlyenoughitems:og_not_enough
+[18:45:49] [Render thread/INFO]: Hark! This watermelon mod doth seem to toil as expected! O, dear sire, rejoice! How tremendous!
+[18:45:49] [Render thread/INFO]: ThreatenGL will threaten Minecraft soon...
+[18:45:49] [Render thread/INFO]: Using GLFW Version 3.4.0 Win32 WGL Null EGL OSMesa VisualC DLL, not to be confused with OpenGL version.
+[18:45:49] [Render thread/INFO]: Deserializing YACLConfig from 'D:\Minecraft\PCL2\PCL2.10.0\.minecraft\versions\1.20.1-Fabric 0.18.4(3D_Particle)\config\yacl.json5'
+---- Minecraft Crash Report ----
+// Don't be sad, have a hug! <3
+
+Time: 2026-06-29 18:45:50
+Description: Initializing game
+
+java.lang.RuntimeException: Could not execute entrypoint stage 'client' due to errors, provided by 'lovicsbettercommandblock' at 'com.zhuhongming.bettercommandblock.BetterCommandBlockClient'!
+	at net.fabricmc.loader.impl.FabricLoaderImpl.lambda$invokeEntrypoints$0(FabricLoaderImpl.java:409)
+	at net.fabricmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33)
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:407)
+	at net.fabricmc.loader.impl.game.minecraft.Hooks.startClient(Hooks.java:53)
+	at knot//net.minecraft.class_310.<init>(class_310.java:458)
+	at knot//net.minecraft.client.main.Main.main(Main.java:211)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+Caused by: java.lang.IllegalArgumentException: Attempted to register a key binding twice: key.bettercommandblock.open_preset_menu
+	at knot//net.fabricmc.fabric.impl.client.keybinding.KeyBindingRegistryImpl.registerKeyBinding(KeyBindingRegistryImpl.java:61)
+	at knot//net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper.registerKeyBinding(KeyBindingHelper.java:51)
+	at knot//com.zhuhongming.bettercommandblock.preset.CommandPresetMenuKeyMappings.register(CommandPresetMenuKeyMappings.java:20)
+	at knot//com.zhuhongming.bettercommandblock.BetterCommandBlockClient.onInitializeClient(BetterCommandBlockClient.java:15)
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:405)
+	... 6 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at net.fabricmc.loader.impl.FabricLoaderImpl.lambda$invokeEntrypoints$0(FabricLoaderImpl.java:409)
+	at net.fabricmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33)
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:407)
+	at net.fabricmc.loader.impl.game.minecraft.Hooks.startClient(Hooks.java:53)
+	at knot//net.minecraft.class_310.<init>(class_310.java:458)
+
+-- Initialization --
+Details:
+	Modules: 
+		ADVAPI32.dll:楂樼骇 Windows 32 鍩烘湰 API:10.0.26100.8457 (WinBuild.160101.0800):Microsoft Corporation
+		COMCTL32.dll:鐢ㄦ埛浣撻獙鎺т欢搴?6.10 (WinBuild.160101.0800):Microsoft Corporation
+		CRYPT32.dll:鍔犲瘑 API32:10.0.26100.8457 (WinBuild.160101.0800):Microsoft Corporation
+		CRYPTBASE.dll:Base cryptographic API DLL:10.0.26100.8246 (WinBuild.160101.0800):Microsoft Corporation
+		CRYPTSP.dll:Cryptographic Service Provider API:10.0.26100.8521 (WinBuild.160101.0800):Microsoft Corporation
+		DBGHELP.DLL:Windows Image Helper:10.0.26100.8328 (WinBuild.160101.0800):Microsoft Corporation
+		DNSAPI.dll:DNS 瀹㈡埛绔?API DLL:10.0.26100.8457 (WinBuild.160101.0800):Microsoft Corporation
+		DSPARSE.dll:Active Directory Domain Services API:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		GDI32.dll:GDI Client DLL:10.0.26100.8328 (WinBuild.160101.0800):Microsoft Corporation
+		IMM32.DLL:Multi-User Windows IMM32 API Client DLL:10.0.26100.8521 (WinBuild.160101.0800):Microsoft Corporation
+		IPHLPAPI.DLL:IP 甯姪绋嬪簭 API:10.0.26100.8457 (WinBuild.160101.0800):Microsoft Corporation
+		KERNEL32.DLL:Windows NT 鍩烘湰 API 瀹㈡埛绔?DLL:10.0.26100.8457 (WinBuild.160101.0800):Microsoft Corporation
+		KERNELBASE.dll:Windows NT 鍩烘湰 API 瀹㈡埛绔?DLL:10.0.26100.8457 (WinBuild.160101.0800):Microsoft Corporation
+		MpOav.dll:IOfficeAntiVirus Module:4.18.26050.15 (b7ae6fb185fe12f8ad81cb6d4ade5982e03d0a61):Microsoft Corporation
+		NSI.dll:NSI User-mode interface DLL:10.0.26100.8246 (WinBuild.160101.0800):Microsoft Corporation
+		NTASN1.dll:Microsoft ASN.1 API:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		OLEAUT32.dll:OLEAUT32.DLL:10.0.26100.8655 (WinBuild.160101.0800):Microsoft Corporation
+		Ole32.dll:鐢ㄤ簬 Windows 鐨?Microsoft OLE:10.0.26100.8457 (WinBuild.160101.0800):Microsoft Corporation
+		POWRPROF.dll:鐢垫簮閰嶇疆鏂囦欢甯姪绋嬪簭 DLL:10.0.26100.8457 (WinBuild.160101.0800):Microsoft Corporation
+		PSAPI.DLL:Process Status Helper:10.0.26100.8521 (WinBuild.160101.0800):Microsoft Corporation
+		Pdh.dll:Windows 鎬ц兘鏁版嵁鍔╂墜 DLL:10.0.26100.8457 (WinBuild.160101.0800):Microsoft Corporation
+		RPCRT4.dll:杩滅▼杩囩▼璋冪敤杩愯鏃?10.0.26100.8457 (WinBuild.160101.0800):Microsoft Corporation
+		SHCORE.dll:SHCORE:10.0.26100.8457 (WinBuild.160101.0800):Microsoft Corporation
+		SHELL32.dll:Windows Shell 鍏敤 DLL:10.0.26100.8521 (WinBuild.160101.0800):Microsoft Corporation
+		UMPDC.dll:User Mode Power Dependency Coordinator:10.0.26100.8115 (WinBuild.160101.0800):Microsoft Corporation
+		USER32.dll:澶氱敤鎴?Windows 鐢ㄦ埛 API 瀹㈡埛绔?DLL:10.0.26100.8457 (WinBuild.160101.0800):Microsoft Corporation
+		USERENV.dll:Userenv:10.0.26100.8457 (WinBuild.160101.0800):Microsoft Corporation
+		VCRUNTIME140.dll:Microsoft庐 C Runtime Library:14.38.33135.0:Microsoft Corporation
+		VERSION.dll:Version Checking and File Installation Libraries:10.0.26100.1150 (WinBuild.160101.0800):Microsoft Corporation
+		WINHTTP.dll:Windows HTTP 鏈嶅姟:10.0.26100.8457 (WinBuild.160101.0800):Microsoft Corporation
+		WINMM.dll:MCI API DLL:10.0.26100.8457 (WinBuild.160101.0800):Microsoft Corporation
+		WS2_32.dll:Windows Socket 2.0 32 浣?DLL:10.0.26100.8457 (WinBuild.160101.0800):Microsoft Corporation
+		amsi.dll:Anti-Malware Scan Interface:10.0.26100.7309 (WinBuild.160101.0800):Microsoft Corporation
+		bcrypt.dll:Windows 鍔犲瘑鍩哄厓搴?10.0.26100.8457 (WinBuild.160101.0800):Microsoft Corporation
+		bcryptPrimitives.dll:Windows Cryptographic Primitives Library:10.0.26100.8328 (WinBuild.160101.0800):Microsoft Corporation
+		clbcatq.dll:COM+ Configuration Catalog:2001.12.10941.16384 (WinBuild.160101.0800):Microsoft Corporation
+		combase.dll:鐢ㄤ簬 Windows 鐨?Microsoft COM:10.0.26100.8457 (WinBuild.160101.0800):Microsoft Corporation
+		dbgcore.DLL:Windows Core Debugging Helpers:10.0.26100.8521 (WinBuild.160101.0800):Microsoft Corporation
+		dxcore.dll:DXCore:10.0.26100.8521 (WinBuild.160101.0800):Microsoft Corporation
+		extnet.dll:OpenJDK Platform binary:21.0.7.0:Microsoft
+		fwpuclnt.dll:FWP/IPsec 鐢ㄦ埛妯″紡 API:10.0.26100.8457 (WinBuild.160101.0800):Microsoft Corporation
+		gdi32full.dll:GDI Client DLL:10.0.26100.8521 (WinBuild.160101.0800):Microsoft Corporation
+		glfw.dll:GLFW 3.4.0 DLL:3.4.0:GLFW
+		iertutil.dll:Internet Explorer 鐨勮繍琛屾椂瀹炵敤绋嬪簭:11.00.26100.8457 (WinBuild.160101.0800):Microsoft Corporation
+		imgui-java64.dll
+		java.dll:OpenJDK Platform binary:21.0.7.0:Microsoft
+		java.exe:OpenJDK Platform binary:21.0.7.0:Microsoft
+		jemalloc.dll
+		jimage.dll:OpenJDK Platform binary:21.0.7.0:Microsoft
+		jli.dll:OpenJDK Platform binary:21.0.7.0:Microsoft
+		jna12999740808852392259.dll:JNA native library:6.1.4:Java(TM) Native Access (JNA)
+		jsvml.dll:OpenJDK Platform binary:21.0.7.0:Microsoft
+		jvm.dll:OpenJDK 64-Bit server VM:21.0.7.0:Microsoft
+		kernel.appcore.dll:AppModel API Host:10.0.26100.8521 (WinBuild.160101.0800):Microsoft Corporation
+		lwjgl.dll
+		management.dll:OpenJDK Platform binary:21.0.7.0:Microsoft
+		management_ext.dll:OpenJDK Platform binary:21.0.7.0:Microsoft
+		msvcp140.dll:Microsoft庐 C Runtime Library:14.38.33135.0:Microsoft Corporation
+		msvcp_win.dll:Microsoft庐 C Runtime Library:10.0.26100.8521 (WinBuild.160101.0800):Microsoft Corporation
+		msvcrt.dll:Windows NT CRT DLL:7.0.26100.8246 (WinBuild.160101.0800):Microsoft Corporation
+		mswsock.dll:Microsoft Windows Sockets 2.0 鏈嶅姟鎻愪緵绋嬪簭:10.0.26100.8457 (WinBuild.160101.0800):Microsoft Corporation
+		napinsp.dll:鐢靛瓙閭欢鍛藉悕濉厖鎻愪緵绋嬪簭:10.0.26100.8457 (WinBuild.160101.0800):Microsoft Corporation
+		ncrypt.dll:Windows NCrypt 璺敱鍣?10.0.26100.8457 (WinBuild.160101.0800):Microsoft Corporation
+		net.dll:OpenJDK Platform binary:21.0.7.0:Microsoft
+		netutils.dll:Net Win32 API Helpers DLL:10.0.26100.1882 (WinBuild.160101.0800):Microsoft Corporation
+		nio.dll:OpenJDK Platform binary:21.0.7.0:Microsoft
+		nlansp_c.dll:NLA Namespace Service Provider DLL:10.0.26100.8521 (WinBuild.160101.0800):Microsoft Corporation
+		ntdll.dll:NT 灞?DLL:10.0.26100.8457 (WinBuild.160101.0800):Microsoft Corporation
+		perfos.dll:Windows 绯荤粺鎬ц兘瀵硅薄 DLL:10.0.26100.8457 (WinBuild.160101.0800):Microsoft Corporation
+		pfclient.dll:SysMain Client:10.0.26100.4202 (WinBuild.160101.0800):Microsoft Corporation
+		profapi.dll:User Profile Basic API:10.0.26100.8521 (WinBuild.160101.0800):Microsoft Corporation
+		rasadhlp.dll:Remote Access AutoDial Helper:10.0.26100.7920 (WinBuild.160101.0800):Microsoft Corporation
+		rsaenh.dll:Microsoft Enhanced Cryptographic Provider:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		sechost.dll:Host for SCM/SDDL/LSA Lookup APIs:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		shlwapi.dll:澶栧３绠€鏄撳疄鐢ㄥ伐鍏峰簱:10.0.26100.8457 (WinBuild.160101.0800):Microsoft Corporation
+		srvcli.dll:Server Service Client DLL:10.0.26100.1150 (WinBuild.160101.0800):Microsoft Corporation
+		sunmscapi.dll:OpenJDK Platform binary:21.0.7.0:Microsoft
+		ucrtbase.dll:Microsoft庐 C Runtime Library:10.0.26100.8521 (WinBuild.160101.0800):Microsoft Corporation
+		urlmon.dll:Win32 鐨?OLE32 鎵╁睍:11.00.26100.8457 (WinBuild.160101.0800):Microsoft Corporation
+		vcruntime140_1.dll:Microsoft庐 C Runtime Library:14.38.33135.0:Microsoft Corporation
+		verify.dll:OpenJDK Platform binary:21.0.7.0:Microsoft
+		win32u.dll:Win32u:10.0.26100.8655 (WinBuild.160101.0800):Microsoft Corporation
+		windows.storage.dll:Microsoft WinRT Storage API:10.0.26100.8457 (WinBuild.160101.0800):Microsoft Corporation
+		winrnr.dll:LDAP RnR Provider DLL:10.0.26100.8521 (WinBuild.160101.0800):Microsoft Corporation
+		wshbth.dll:Windows Sockets Helper DLL:10.0.26100.5074 (WinBuild.160101.0800):Microsoft Corporation
+		wshunix.dll:AF_UNIX Winsock2 Helper DLL:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		zip.dll:OpenJDK Platform binary:21.0.7.0:Microsoft
+Stacktrace:
+	at knot//net.minecraft.client.main.Main.main(Main.java:211)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.7, Microsoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
+	Memory: 11943788944 bytes (11390 MiB) / 12884901888 bytes (12288 MiB) up to 12884901888 bytes (12288 MiB)
+	CPUs: 24
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) Ultra 9 275HX
+	Identifier: Intel64 Family 6 Model 198 Stepping 2
+	Microarchitecture: unknown
+	Frequency (GHz): 3.07
+	Number of physical packages: 1
+	Number of physical CPUs: 24
+	Number of logical CPUs: 24
+	Graphics card #0 name: GameViewer Virtual Display Adapter
+	Graphics card #0 vendor: GameViewer
+	Graphics card #0 VRAM (MB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: DriverVersion=15.6.5.199
+	Graphics card #1 name: Intel(R) Graphics
+	Graphics card #1 vendor: Intel Corporation (0x8086)
+	Graphics card #1 VRAM (MB): 2048.00
+	Graphics card #1 deviceId: 0x7d67
+	Graphics card #1 versionInfo: DriverVersion=32.0.101.8243
+	Graphics card #2 name: NVIDIA GeForce RTX 5060 Laptop GPU
+	Graphics card #2 vendor: NVIDIA (0x10de)
+	Graphics card #2 VRAM (MB): 4095.00
+	Graphics card #2 deviceId: 0x2d59
+	Graphics card #2 versionInfo: DriverVersion=32.0.15.9201
+	Memory slot #0 capacity (MB): 16384.00
+	Memory slot #0 clockSpeed (GHz): 6.40
+	Memory slot #0 type: Unknown
+	Memory slot #1 capacity (MB): 16384.00
+	Memory slot #1 clockSpeed (GHz): 6.40
+	Memory slot #1 type: Unknown
+	Virtual memory max (MB): 47549.37
+	Virtual memory used (MB): 41562.88
+	Swap memory total (MB): 15360.00
+	Swap memory used (MB): 55.25
+	JVM Flags: 14 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xms12G -Xmx12G -XX:-OmitStackTraceInFastThrow -Xmx12288m -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:G1HeapRegionSize=32M -XX:MaxGCPauseMillis=50 -XX:+PerfDisableSharedMem -XX:MinHeapFreeRatio=25 -XX:MaxHeapFreeRatio=40
+	Fabric Mods: 
+		additionalstructures: Additional Structures 4.2.2
+		architectury: Architectury 9.2.14
+		atistructures: atistructures 1.4.0
+		audioimprovements: Audio Improvements 1.3.1
+		axiom: Axiom 5.2.1
+			com_moulberry_axiomclientapi: axiomclientapi 1.0.41
+			com_moulberry_mixinconstraints: mixinconstraints 1.0.9
+			lattice: Lattice 1.3.0
+		bettercommandblock: Better Command Block 1.1.0
+		carpet: Carpet Mod 1.4.112+v230608
+		cloth-config: Cloth Config v11 11.1.136
+			cloth-basic-math: cloth-basic-math 0.6.1
+		continuity: Continuity 3.0.0+1.20.1
+		fabric-api: Fabric API 0.92.7+1.20.1
+			fabric-api-base: Fabric API Base 0.4.32+1802ada577
+			fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.6.37+1802ada577
+			fabric-biome-api-v1: Fabric Biome API (v1) 13.0.15+93aa238b77
+			fabric-block-api-v1: Fabric Block API (v1) 1.0.12+1802ada577
+			fabric-block-view-api-v2: Fabric BlockView API (v2) 1.0.3+924f046a77
+			fabric-blockrenderlayer-v1: Fabric BlockRenderLayer Registration (v1) 1.1.42+1802ada577
+			fabric-client-tags-api-v1: Fabric Client Tags 1.1.3+1802ada577
+			fabric-command-api-v1: Fabric Command API (v1) 1.2.35+f71b366f77
+			fabric-command-api-v2: Fabric Command API (v2) 2.2.14+1802ada577
+			fabric-commands-v0: Fabric Commands (v0) 0.2.52+df3654b377
+			fabric-containers-v0: Fabric Containers (v0) 0.1.67+df3654b377
+			fabric-content-registries-v0: Fabric Content Registries (v0) 4.0.13+1802ada577
+			fabric-convention-tags-v1: Fabric Convention Tags 1.5.6+1802ada577
+			fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.2.20+1802ada577
+			fabric-data-attachment-api-v1: Fabric Data Attachment API (v1) 1.0.2+de0fd6d177
+			fabric-data-generation-api-v1: Fabric Data Generation API (v1) 12.3.7+1802ada577
+			fabric-dimensions-v1: Fabric Dimensions API (v1) 2.1.55+1802ada577
+			fabric-entity-events-v1: Fabric Entity Events (v1) 1.6.1+1c78457f77
+			fabric-events-interaction-v0: Fabric Events Interaction (v0) 0.6.5+13a40c6677
+			fabric-events-lifecycle-v0: Fabric Events Lifecycle (v0) 0.2.64+df3654b377
+			fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.41+1802ada577
+			fabric-item-api-v1: Fabric Item API (v1) 2.1.29+1802ada577
+			fabric-item-group-api-v1: Fabric Item Group API (v1) 4.0.14+1802ada577
+			fabric-key-binding-api-v1: Fabric Key Binding API (v1) 1.0.38+1802ada577
+			fabric-keybindings-v0: Fabric Key Bindings (v0) 0.2.36+df3654b377
+			fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 2.2.23+1802ada577
+			fabric-loot-api-v2: Fabric Loot API (v2) 1.2.3+1802ada577
+			fabric-loot-tables-v1: Fabric Loot Tables (v1) 1.1.47+9e7660c677
+			fabric-message-api-v1: Fabric Message API (v1) 5.1.10+1802ada577
+			fabric-mining-level-api-v1: Fabric Mining Level API (v1) 2.1.52+1802ada577
+			fabric-model-loading-api-v1: Fabric Model Loading API (v1) 1.0.4+1802ada577
+			fabric-models-v0: Fabric Models (v0) 0.4.3+9386d8a777
+			fabric-networking-api-v1: Fabric Networking API (v1) 1.3.14+a158aa0477
+			fabric-networking-v0: Fabric Networking (v0) 0.3.54+df3654b377
+			fabric-object-builder-api-v1: Fabric Object Builder API (v1) 11.1.5+e35120df77
+			fabric-particles-v1: Fabric Particles (v1) 1.1.3+1802ada577
+			fabric-recipe-api-v1: Fabric Recipe API (v1) 1.0.24+1802ada577
+			fabric-registry-sync-v0: Fabric Registry Sync (v0) 2.3.6+1802ada577
+			fabric-renderer-api-v1: Fabric Renderer API (v1) 3.2.2+1802ada577
+			fabric-renderer-indigo: Fabric Renderer - Indigo 1.5.3+85287f9f77
+			fabric-renderer-registries-v1: Fabric Renderer Registries (v1) 3.2.47+df3654b377
+			fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.3.39+92a0d36777
+			fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 3.0.29+1802ada577
+			fabric-rendering-v0: Fabric Rendering (v0) 1.1.50+df3654b377
+			fabric-rendering-v1: Fabric Rendering (v1) 3.0.9+1802ada577
+			fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 2.3.9+1802ada577
+			fabric-resource-loader-v0: Fabric Resource Loader (v0) 0.11.12+fb82e9d777
+			fabric-screen-api-v1: Fabric Screen API (v1) 2.0.9+1802ada577
+			fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.3.33+1802ada577
+			fabric-sound-api-v1: Fabric Sound API (v1) 1.0.14+1802ada577
+			fabric-transfer-api-v1: Fabric Transfer API (v1) 3.3.6+8dd72ea377
+			fabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 4.3.2+1802ada577
+		fabricloader: Fabric Loader 0.18.4
+			mixinextras: MixinExtras 0.5.0
+		indium: Indium 1.0.36+mc1.20.1
+		iris: Iris 1.7.6+mc1.20.1
+			io_github_douira_glsl-transformer: glsl-transformer 2.0.1
+			org_anarres_jcpp: jcpp 1.4.14
+			org_antlr_antlr4-runtime: antlr4-runtime 4.13.1
+		java: OpenJDK 64-Bit Server VM 21
+		lanserverproperties: Lan Server Properties 1.11.1
+		litematica: Litematica 0.15.4
+		lovicsbettercommandblock: Lovic's Better Command Block 1.1.1
+		malilib: MaLiLib 0.16.3
+		minecraft: Minecraft 1.20.1
+		modmenu: Mod Menu 7.2.2
+		replaymod: Replay Mod 1.20.1-2.6.23
+		roughlyenoughitems: Roughly Enough Items 12.1.785
+			error_notifier: Error Notifier 1.0.9
+		sodium: Sodium 0.5.13+mc1.20.1
+		terralith: Terralith 2.5.4
+		threatengl: ThreatenGL 2.0.4-release.10
+		yet_another_config_lib_v3: YetAnotherConfigLib 3.6.6+1.20.1-fabric
+			com_twelvemonkeys_common_common-image: common-image 3.12.0
+			com_twelvemonkeys_common_common-io: common-io 3.12.0
+			com_twelvemonkeys_common_common-lang: common-lang 3.12.0
+			com_twelvemonkeys_imageio_imageio-core: imageio-core 3.12.0
+			com_twelvemonkeys_imageio_imageio-metadata: imageio-metadata 3.12.0
+			com_twelvemonkeys_imageio_imageio-webp: imageio-webp 3.12.0
+			org_quiltmc_parsers_gson: gson 0.2.1
+			org_quiltmc_parsers_json: json 0.2.1
+	Launched Version: 1.20.1-Fabric 0.18.4(3D_Particle)
+	Backend library: LWJGL version 3.3.1 SNAPSHOT
+	Backend API: Unknown
+	Window size: <not initialized>
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: <disabled>
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fabric'
+	Type: Client (map_client.txt)
+	CPU: <unknown>
+#@!@# Game crashed! Crash report saved to: #@!@# D:\Minecraft\PCL2\PCL2.10.0\.minecraft\versions\1.20.1-Fabric 0.18.4(3D_Particle)\crash-reports\crash-2026-06-29_18.45.50-client.txt
