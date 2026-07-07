@@ -1,4 +1,4 @@
-# 更好的命令方块界面
+# 洛维的更好的命令方块界面
 
 [![English](https://img.shields.io/badge/lang-English-blue)](./README.md)
 [![简体中文](https://img.shields.io/badge/lang-简体中文-red)](./README_zh.md)
