@@ -5,7 +5,6 @@
 
 ---
 
-# Lovic's Better Command Block (English Description)
 
 **Better Command Block UI** —— A command block GUI enhancement mod built for map makers and command creators.
 
