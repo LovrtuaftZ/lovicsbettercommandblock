@@ -1,6 +1,9 @@
 # Lovic's Better Command Block
 
-[English Below]
+[![English](https://img.shields.io/badge/lang-English-blue)](./README.md)
+[![简体中文](https://img.shields.io/badge/lang-简体中文-red)](./README_zh.md)
+
+---
 
 **更好的命令方块界面** —— 为地图制作与指令创作而生的命令方块 GUI 增强模组。
 
